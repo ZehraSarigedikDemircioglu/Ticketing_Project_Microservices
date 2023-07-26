@@ -68,9 +68,9 @@ services:
       - "8762:8762"
     depends_on:
       - discovery-service
-      - userservice
-      - projectservice
-      - taskservice
+      - user-service
+      - project-service
+      - task-service
     networks:
       - backend
 
