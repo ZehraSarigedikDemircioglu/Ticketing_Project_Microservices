@@ -73,7 +73,6 @@ services:
       - task-service
     networks:
       - backend
-
 networks:
   backend:
     driver: bridge
