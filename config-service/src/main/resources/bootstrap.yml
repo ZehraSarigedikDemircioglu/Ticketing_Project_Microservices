@@ -10,7 +10,8 @@ spring:
           uri: https://github.com/ZehraSarigedikDemircioglu/ticketing-project-microservices-config
           default-label: main
           username: ZehraSarigedikDemircioglu
-          password: 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
+#          password: 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
+          password: '{cipher}8c205155fec2f114546593204d8d20d871f5cbab4c15c475c5f63b0b7e5fcc58a780b30a4c16c7898ec31093f21bd2093ec47279358536c8fba55cddcbcbc260'
       fail-fast: true
 
 encrypt:
