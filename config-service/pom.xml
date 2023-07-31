@@ -32,7 +32,7 @@
                 <configuration>
                     <image>
                         <builder>dashaun/builder:tiny</builder>
-                        <name>${project.groupId}/config-service:${project.version}</name>
+                        <name>${project.groupId}/config-server:${project.version}</name>
                     </image>
                 </configuration>
                 <executions>
